@@ -8,6 +8,15 @@
         "revision" : "7bbc6e0c62bd55de3b11bf4fad062e3dff6890e3",
         "version" : "1.0.0"
       }
+    },
+    {
+      "identity" : "logger_package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aanaltrivedi18/Logger_Package",
+      "state" : {
+        "revision" : "01ce567f890feb046ba1d4eeb8fbe38f6abb9f05",
+        "version" : "1.0.0"
+      }
     }
   ],
   "version" : 2

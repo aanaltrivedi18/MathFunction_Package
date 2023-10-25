@@ -13,7 +13,9 @@ let package = Package(
     ],
     
     dependencies: [
-        .package(url: "https://github.com/aanaltrivedi18/Greet_User_Package", from: "1.0.0")
+        .package(url: "https://github.com/aanaltrivedi18/Greet_User_Package", from: "1.0.0"),
+        .package(url: "https://github.com/aanaltrivedi18/Logger_Package", from: "1.0.0")
+
     ],
     
     targets: [
@@ -22,7 +24,8 @@ let package = Package(
         .target(
             name: "MathFunction_Package",
             dependencies: [
-                .product(name: "Greet_User_Package", package: "Greet_User_Package")
+                .product(name: "Greet_User_Package", package: "Greet_User_Package"),
+                .product(name: "Logger_Package", package: "Logger_Package")
             ]
         ),
 
