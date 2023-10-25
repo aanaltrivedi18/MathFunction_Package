@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "greet_user_package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aanaltrivedi18/Greet_User_Package",
+      "state" : {
+        "revision" : "7bbc6e0c62bd55de3b11bf4fad062e3dff6890e3",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
